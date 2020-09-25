@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Gallery</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <style>            
+            body{             
+                
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;            
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 16px;
+            }
+
+            #header {
+                background-color: #FFFF;
+                color: #000000;
+                display: flex;
+                padding: 10px 20px;                
+            }
+            #header p{
+                margin-left: 20px;
+            }
+
+            nav{
+                background-color: #0c0c0c;
+                overflow: auto;
+                border-bottom: 1px solid #f6f6f6;
+            }
+
+            nav ul{
+                list-style: none;
+            }
+
+            nav ul li{
+                display: inline;                                
+            }
+
+            nav ul li a{
+                padding: 10px 20px;
+                text-decoration: none;
+                color: #f7c08a;
+            }
+
+            nav ul li a:hover{
+                text-decoration: underline;
+                background-color: #444;
+            }
+
+            h2{
+                color: #000000;
+                text-align: center;
+                font-size: 32px;
+            }
+            main{
+                display: flex;  
+                min-height: 565px;                               
+            }
+            #sidebar {                
+                width: 25%;           
+            }
+            ul#main-nav{
+                background-color: #444444;
+                top:0;
+                position: relative;
+                list-style: none;
+                padding: 0;
+                margin: 10px;
+                font-size: 18px;
+                border-radius: 10px;
+            }
+            ul#main-nav li{              
+                padding: 20px 40px;
+                border-bottom: 1px solid #f2f2f2;
+            }
+
+
+            ul#main-nav li:hover{              
+                background-color: #000000;                
+            }
+            ul#main-nav li:hover a{              
+                color: #f2f2f2;                
+            }
+            
+            ul#main-nav li a {
+                text-decoration: none;
+                color: #f6f6f6;
+            }
+            
+            #gallery {
+                width: 75%;                      
+            }
+
+            .card {
+               background-color: #f6f6f6;
+                width: 29.8%;
+                display: inline-block;
+                border: 2px solid #f2f2f2;
+                box-shadow: 1px solid #f5f5f5;
+                border-radius: 10px;
+                text-align: justify;
+                padding: 0 10px; 
+                margin: 0 0 10px 10px;
+                
+
+            }
+            .card h3 {
+                color: rgb(175, 99, 23);
+                font-style: italic;
+                text-align: center;
+                font-size: 20px;
+            }
+
+            .cls {
+                clear: both;
+            }
+
+            #footer {
+                background-color: #444444;
+                color: white;
+                text-align: center;
+                padding: 10px;
+                font-size: 16px;
+                             
+            }
+        </style>
+    </head>
+
+    <body>
+        
+            <header id="header">
+                <h1>My Website</h1>
+                <p>Just Another Website</p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <main>
+            <aside id="sidebar">
+                <h2>Navigation</h2>
+                <ul id="main-nav">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </aside>
+                           
+                <section id="gallery">
+                    <h2>Gallery</h2>
+                    <article class="card">
+                        <h3>Product Name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste praesentium, provident maiores
+                            soluta cum id ipsum unde. Iste, ipsa harum.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Product Name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste praesentium, provident maiores
+                            soluta cum id ipsum unde. Iste, ipsa harum.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Product Name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste praesentium, provident maiores
+                            soluta cum id ipsum unde. Iste, ipsa harum.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Product Name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste praesentium, provident maiores
+                            soluta cum id ipsum unde. Iste, ipsa harum.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Product Name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste praesentium, provident maiores
+                            soluta cum id ipsum unde. Iste, ipsa harum.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Product Name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste praesentium, provident maiores
+                            soluta cum id ipsum unde. Iste, ipsa harum.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Product Name</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste praesentium, provident maiores
+                            soluta cum id ipsum unde. Iste, ipsa harum.</p>
+                    </article>
+
+                    </section>
+                </main>
+            <footer id="footer">
+                Footer
+            </footer>
+        
+    </body>
+
+</html>
